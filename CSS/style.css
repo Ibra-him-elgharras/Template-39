@@ -1,0 +1,33 @@
+/* Start variables */
+:root{
+    --main-color: ;
+    --secondary-color: ;
+    --section-padding: ;
+    --section-background: ;
+    --main-duration: ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* End variables */
+/* Start Global Rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+/* End Global Rules */
