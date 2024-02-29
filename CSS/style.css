@@ -1,7 +1,12 @@
 /* Start variables */
 :root{
-    --main-color: ;
-    --secondary-color: ;
+    --main-color: #1f2021;
+    --secondary-color: #00c7fc;
+    --third-color: #db067b;
+    --fourth-color: #4a4b4c;
+    --fifth-color: #dbdbdb;
+    --sixth-color: #b9b9b9;
+    --seven-color: #ffffff;
     --section-padding: ;
     --section-background: ;
     --main-duration: ;
@@ -27,7 +32,18 @@ body{
 .container{
     margin-left: auto;
     margin-right: auto;
+    background-color: red;
     padding: 0 15px;
 }
 
 /* End Global Rules */
+
+/* Start Home */
+
+.container .home{
+    
+}
+
+
+
+/* End Home */
