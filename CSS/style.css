@@ -7,11 +7,8 @@
     --fifth-color: #dbdbdb;
     --sixth-color: #b9b9b9;
     --seven-color: #ffffff;
-    --contianer-width: 1170px;
-    --container-margin: 0 auto;
-    --section-padding: ;
-    --section-background: ;
-    --main-duration: ;
+    --container-width: 1170px;
+
 }
 
 html{
@@ -34,7 +31,6 @@ body{
 
 .home{
     background-image: url(/images/noir-1.jpg);
-    
 }
 
 .home .container{
@@ -112,9 +108,8 @@ body{
 .home .container .info{
     margin-top: 120px;
     width: 600px;
-    padding-left: 130px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0 0 130px;
+
     border: none;
 }
 
@@ -137,11 +132,11 @@ body{
     letter-spacing: 1px;
 }
 
-.home .container .info p{
+.home .container .info .info-home {
     color: var(--seven-color);
     line-height: 25px;
     margin-top: -15px;
-    font-size: 13px;
+    font-size: var(--p-info);
 }
 
 .home .arrow{
@@ -189,5 +184,24 @@ body{
     font-size: 9px;
 }
 
-
 /* End Home */
+
+/* Start services */
+.services{
+    background-color: var(--fifth-color);
+}
+
+.services .container{
+    background-color:red;
+}
+
+.services .container .title-services h4{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.services .container .title-services .info-services{
+    font-size: 17px;
+}
+
+/* End services */
