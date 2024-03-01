@@ -31,16 +31,115 @@ body{
 /* Start Home */
 
 .home{
-    background-color: black;
-    width: 100%;
+    background-image: url(/images/noir-1.jpg);
+    
 }
 
 .home .container{
-    background-color: yellow;
-    width:960px;
+    
+    width:1170px;
 	margin:0 auto;
 }
 
+.home .container .header{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.home .container .header .links{
+    list-style-type: none;
+    
+}
+
+.home .container .header .links li {
+    display: inline-block;
+    font-size:17px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    
+}
+
+.home .container .header .links li a{
+    padding-right: 40px;
+    text-decoration: none;
+    color: var(--seven-color);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.home .container .header .links li a:hover{
+    padding-bottom: 30px;
+    color: var(--secondary-color);
+    
+}
+
+.home .container .header .logo img{
+    width:150px;
+	height:60px;
+    margin-right: 150px;
+}
+
+.home .container .header .search{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+}
+
+.home .container .header .search i{
+    font-size:20px;
+    color: var(--seven-color);
+}
+.container .header .search .line-v{
+    position: absolute;
+    left: 70%;
+    width: 2px;
+    height: 30px;
+    background-color: var(--sixth-color);
+}
+
+.home .container .separator{
+    margin-top: -5px;
+    background-color: var(--seven-color);
+    height: 0.5px;
+}
+
+.home .container .info{
+    margin-top: 120px;
+    width: 600px;
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home .container .info::before{
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 0;
+    height: 256px;
+    width: 780px;
+    background-color: var(--secondary-color);
+    
+}
+
+.home .container .info h3{
+    color: var(--seven-color);
+    line-height: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.home .container .info p{
+    color: var(--seven-color);
+    line-height: 25px;
+    margin-top: -15px;
+    font-size: 13px;
+}
 
 
 
