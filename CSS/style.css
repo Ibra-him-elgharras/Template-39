@@ -7,6 +7,8 @@
     --fifth-color: #dbdbdb;
     --sixth-color: #b9b9b9;
     --seven-color: #ffffff;
+    --contianer-width: 1170px;
+    --container-margin: 0 auto;
     --section-padding: ;
     --section-background: ;
     --main-duration: ;
@@ -113,16 +115,17 @@ body{
     padding-left: 130px;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
-.home .container .info::before{
+.home::before{
     content: "";
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 0;
     height: 256px;
     width: 780px;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     
 }
 
@@ -140,6 +143,30 @@ body{
     margin-top: -15px;
     font-size: 13px;
 }
+
+.home .arrow{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.home .arrow .right-arrow i{
+    color: var(--fifth-color);
+    position: absolute;
+    top: -160px;
+    right: 0;
+    margin-right: 15px;
+}
+
+.home .arrow .left-arrow i{
+    color: var(--fifth-color);
+    position: absolute;
+    top: -160px;
+    left: 0;
+    margin-left: 15px;
+}
+
 
 
 
