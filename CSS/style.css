@@ -115,7 +115,7 @@ body{
     padding-left: 130px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    border: none;
 }
 
 .home::before{
@@ -167,7 +167,27 @@ body{
     margin-left: 15px;
 }
 
+.home .container .navigation{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border:none;
+}
 
+
+.home .container .navigation i:nth-child(1),
+.home .container .navigation i:nth-child(3)
+{
+    color: var(--main-color);
+    border: 1px solid var(--fifth-color);
+    font-size: 9px;
+    border-radius: 50%;
+}
+
+.home .container .navigation i:nth-child(2){
+    color: var(--secondary-color);
+    font-size: 9px;
+}
 
 
 /* End Home */
