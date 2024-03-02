@@ -8,6 +8,7 @@
     --sixth-color: #b9b9b9;
     --seven-color: #ffffff;
     --container-width: 1170px;
+    --container-margin: 0 auto;
 
 }
 
@@ -191,17 +192,59 @@ body{
     background-color: var(--fifth-color);
 }
 
-.services .container{
-    background-color:red;
+.services .container-services{
+    display: flex;
+    flex-direction: column;
+    width: var(--container-width);
+    margin: var(--container-margin);
 }
 
-.services .container .title-services h4{
+.services .container-services .title-services{
+    text-align: center;
+    position: relative;
+}
+
+.services .container-services .title-services h4{
     margin-top: 0;
-    padding-top: 30px;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
-.services .container .title-services .info-services{
-    font-size: 17px;
+.services .container-services .title-services .separator{
+    background-color: var(--main-color);
+    height: 1px;
+    width: 70px;
+    margin-top: 30px;
 }
+
+.services .container-services .title-services .separator::after{
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    background-color: var(--fifth-color);
+}
+
+.services .container-services .title-services .info-services{
+    font-size: 17px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.services .container-services .cont-services{
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
 
 /* End services */
