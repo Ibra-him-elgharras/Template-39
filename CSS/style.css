@@ -285,6 +285,19 @@ body{
     width: 550px;
     background-color: #db067b;
     padding: 100px 0 100px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.phone-adver .container .infos::before{
+    content: "";
+    background-color: var(--secondary-color);
+    width: 794px;
+    height: 260px;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    z-index: -1;
 }
 
 .infos .phone-title{
@@ -312,9 +325,14 @@ body{
     display: flex;
 }
 
-.phone-adver .container .phones .black-phone, .white-phone{
+.phone-adver .container .phones .white-phone{
     width: 150px;
     height: 300px;
+}
+
+.phone-adver .container .phones .black-phone{
+    width: 150px;
+    height: 350px;
 }
 
 .phone-adver .container .phones .black-phone img,
@@ -327,7 +345,36 @@ body{
     position: absolute;
     top: 30%;
     left: 60%;
+    z-index: 0;
 }
+
+.phone-adver .container .phones .white-phone::after{
+    content: "";
+    background-color: var(--third-color);
+    width: 132px;
+    height: 226px;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+}
+
+.phone-adver .container .phones .black-phone{
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    z-index: 1;
+}
+
+.phone-adver .container .phones .black-phone::after{
+    content: "";
+    background-color: var(--secondary-color);
+    width: 139px;
+    height: 279px;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
 
 
 
