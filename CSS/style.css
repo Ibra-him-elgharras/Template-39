@@ -419,6 +419,52 @@ body{
     margin: 0 auto;
 }
 
+.menu-portfolio{
+    height: 90px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links-portfolio{
+    list-style-type: none;
+    width: 820px;
+}
+
+.links-portfolio li {
+    display: inline-block;
+    font-size:17px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.links-portfolio li a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: var(--fourth-color);
+    transition: all 0.3s ease;
+}
+
+.links-portfolio li a:hover{
+    background-color: var(--secondary-color);
+    padding: 6px 15px;
+    color: var(--seven-color);
+}
+.links-portfolio li a:hover  .link-1{
+    background-color: transparent;
+    color: var(--fourth-color);
+}
+
+.links-portfolio li .link-1{
+    background-color: var(--secondary-color);
+    padding: 6px 15px;
+    color: var(--seven-color);
+}
+
+
+
+
 
 
 
