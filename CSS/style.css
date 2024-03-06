@@ -491,8 +491,6 @@ body{
     
 }
 
-
-
 .top-images .img .informations{
     position: absolute;
     width: 400px;
@@ -553,18 +551,47 @@ body{
     font-size: 14px;
     font-weight: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* End  images */
+
+/* Start videos */
+
+.portfolio .videos{
+    background-image: url(/images/noir-1.jpg);
+    display: flex;
+    align-items: center;
+    height: 380px;
+}
+
+.portfolio .videos .infos-video{
+    background-color: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.portfolio .videos .infos-video h3{
+    color: var(--seven-color);
+    font-weight: 400;
+}
+
+.portfolio .videos .infos-video p{
+   font-size: 13px;
+   color: var(--seven-color);
+}
+
+.portfolio .videos .infos-video button{
+    background-color: var(--main-color);
+    border: none;
+    padding: 5px 30px;
+    color: var(--seven-color);
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+
+
+
+/* End  videos */
 
 
