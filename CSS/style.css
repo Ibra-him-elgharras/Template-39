@@ -640,6 +640,41 @@ body{
     margin: 0 auto;
 }
 
+.about-us .container-about-us .screnns{
+    background-color: #00c7fc;
+    height: 350px;
+}
+
+.about-us .container-about-us .screnns .left-secreen{
+    width: 60px;
+    height: 150px;
+}
+
+.about-us .container-about-us .screnns .left-secreen img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-us .container-about-us .screnns .right-secreen{
+    width: 60px;
+    height: 150px;
+}
+
+.about-us .container-about-us .screnns .right-secreen img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-us .container-about-us .screnns .midel-secreen{
+    width: 60px;
+    height: 150px;
+}
+
+.about-us .container-about-us .screnns .midel-secreen img{
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
