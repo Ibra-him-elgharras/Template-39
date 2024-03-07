@@ -587,11 +587,74 @@ body{
     font-size: 13px;
     font-weight: 100;
 }
-
-
-
-
-
 /* End  videos */
+
+/* Start ABOUT US */
+
+
+.about-us{
+    background-color: var(--seven-color);
+}
+
+.container-about-us{
+    width: var(--container-width);
+    margin: var(--container-margin);
+}
+
+.container-about-us .title-about-us{
+    text-align: center;
+    position: relative;
+}
+
+.title-about-us h4{
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+ .title-about-us .separator{
+    background-color: var(--main-color);
+    height: 1px;
+    width: 70px;
+    margin-top: 30px;
+}
+
+ .title-about-us .separator::after{
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    background-color: var(--fifth-color);
+}
+
+.title-about-us .info-about-us{
+    font-size: 17px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End ABOUT US */
+
 
 
