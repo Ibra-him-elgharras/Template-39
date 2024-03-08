@@ -786,7 +786,19 @@ body{
 }
 
 
+.about-us .about-test-skills {
+    width: var(--container-width);
+    margin: var(--container-margin);
+    background-color: #db067b;
+}
 
+.about-us .about-test-skills .testimonials{
+    
+}
+
+.about-us .about-test-skills .skills{
+
+} 
 
 
 
