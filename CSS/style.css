@@ -641,13 +641,32 @@ body{
 }
 
 .about-us .container-about-us .screnns{
-    background-color: #00c7fc;
+    background-color: red;
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .about-us .container-about-us .screnns .left-secreen{
-    width: 60px;
-    height: 150px;
+    width: 260px;
+    height: 210px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    z-index: 1;
+}
+
+.about-us .container-about-us .screnns .left-secreen::after{
+    content: "";
+    background-color: var(--third-color);
+    width: 199px;
+    height: 181px;
+    position: absolute;
+    top: 6px;
+    left: 30px;
+    z-index: 1;
 }
 
 .about-us .container-about-us .screnns .left-secreen img{
@@ -656,8 +675,23 @@ body{
 }
 
 .about-us .container-about-us .screnns .right-secreen{
-    width: 60px;
-    height: 150px;
+    width: 160px;
+    height: 240px;
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 1;
+}
+
+.about-us .container-about-us .screnns .right-secreen::after{
+    content: "";
+    background-color: var(--third-color);
+    width: 118px;
+    height: 142px;
+    position: absolute;
+    top: 50px;
+    right: 22px;
+    z-index: 1;
 }
 
 .about-us .container-about-us .screnns .right-secreen img{
@@ -666,8 +700,20 @@ body{
 }
 
 .about-us .container-about-us .screnns .midel-secreen{
-    width: 60px;
-    height: 150px;
+    width: 420px;
+    height: 230px;
+    position: absolute;
+    top: 40px;
+}
+
+.about-us .container-about-us .screnns .midel-secreen::after{
+    content: "";
+    background-color: var(--secondary-color);
+    width: 330px;
+    height: 185px;
+    position: absolute;
+    top: 23px;
+    right: 42px;
 }
 
 .about-us .container-about-us .screnns .midel-secreen img{
