@@ -1091,6 +1091,58 @@ body{
     font-size: 13px;
 }
 /* End PRICING */
+/* Start contact us */
+
+
+.Contact-Us{
+    background-color: var(--seven-color);
+}
+
+.container-Contact-Us{
+    width: var(--container-width);
+    margin: var(--container-margin);
+}
+
+.container-Contact-Us .title-Contact-Us{
+    text-align: center;
+    position: relative;
+}
+
+.title-Contact-Us h4{
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+ .title-container-Contact-Us .separator{
+    background-color: var(--main-color);
+    height: 1px;
+    width: 70px;
+    margin-top: 30px;
+}
+
+ .title-Contact-Us .separator::after{
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    background-color: var(--fifth-color);
+}
+
+.title-Contact-Us .info-Contact-Us{
+    font-size: 17px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* End contact us */
 
 
 
