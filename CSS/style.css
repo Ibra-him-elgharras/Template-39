@@ -641,7 +641,6 @@ body{
 }
 
 .about-us .container-about-us .screnns{
-    background-color: red;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -782,35 +781,132 @@ body{
     margin: 0;
     color: var(--seven-color);
     font-size: 13px;
-    
 }
 
-
-.about-us .about-test-skills {
+ .about-test-skills {
     width: var(--container-width);
     margin: var(--container-margin);
-    background-color: #db067b;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
 }
 
-.about-us .about-test-skills .testimonials{
+ .about-test-skills .title-test{
+    text-align: center;
+    position: relative;
+}
+
+ .about-test-skills .title-test h4{
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+ .about-test-skills .title-test .info-test{
+    font-size: 17px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.about-test-skills .testimonials{
+    width: 550px;
+}
+.about-test-skills .testimonials .auteur{
+    padding: 10px 0 10px 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ .about-test-skills .testimonials .auteur .circle-log{
+    width: 140px;
+    height: 140px;
+    margin-right: 40px;
+    position: relative;
+    top: -20px;
+}
+
+ .about-test-skills .testimonials .auteur .circle-log img{
+    width: 100%;
+    height: 100%;
     
 }
 
-.about-us .about-test-skills .skills{
+.about-test-skills .testimonials .auteur .detail{
+    border-bottom: 1.5px solid var(--sixth-color);
+    position: relative;
+    top: -20px;
+}
 
-} 
+.about-test-skills .testimonials .auteur .detail p{
+    padding: 0;
+    margin: 0;
+}
+
+.about-test-skills .testimonials .auteur .detail h5{
+    padding: 10px 0 10px 260px;
+    margin: 0;
+    color: var(--sixth-color);
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.about-test-skills .testimonials .auteur:nth-child(3){
+    margin-top: -58px;
+    padding-bottom: 0px;
+}
+
+.about-test-skills .testimonials  .navigation{
+    position: relative;
+    top: -30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border:none;
+}
 
 
+.about-test-skills .testimonials  .navigation i:nth-child(1),
+.about-test-skills .testimonials  .navigation i:nth-child(3)
+{
+    color: var(--fifth-color);
+    border: 1px solid var(--main-color);
+    font-size: 9px;
+    border-radius: 50%;
+}
 
+.about-test-skills .testimonials  .navigation i:nth-child(2){
+    color: var(--secondary-color);
+    font-size: 9px;
+}
 
+.about-us .about-quaote{
+    background-image: url(/images/noir-1.jpg);
+    display: flex;
+    align-items: center;
+    height: 280px;
+}
 
+.about-us .about-quaote .info-quote{
+    color: var(--seven-color);
+    width: var(--container-width);
+    height: 160px;
+    margin: var(--container-margin);
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-
-
-
-
-
-
+.about-us .about-quaote .info-quote h2{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+}
 
 
 /* End ABOUT US */
