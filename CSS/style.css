@@ -951,7 +951,6 @@ body{
 }
 
 .pricing .container-pricing .content-pricing{
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -1002,7 +1001,6 @@ body{
 }
 
 .content-pricing .basic-pricing h5:nth-child(5){
-    
     border-bottom: 2px solid var(--secondary-color);
     width: 100%;
 }
@@ -1021,7 +1019,6 @@ body{
 }
 
 .pricing .container-pricing .inf-pricing{
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1045,9 +1042,54 @@ body{
     border: none;
 }
 
+.pricing .subscribe{
+    background-color: var(--main-color);
+}
 
+.pricing .subscribe .subscribe-container{
+    width: var(--container-width);
+    margin: var(--container-margin);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+}
+.subscribe .subscribe-container .mail-part{
+    border: 2px solid var(--seven-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    height: 50px;
+}
 
+.subscribe .subscribe-container .mail-part .left{
+    height: 100%;
+    padding: 15px 15px 15px 15px;
+    color: var(--seven-color);
+    font-size: 13px;
+}
 
+.subscribe .subscribe-container .mail-part .left i{
+    margin-right: 10px;
+}
+
+.subscribe .subscribe-container .mail-part .right{
+    height: 100%;
+    padding: 15px 20px;
+    color: var(--seven-color);
+    background-color: var(--secondary-color);
+    font-size: 13px;
+}
+
+.subscribe .subscribe-container .text-{
+    display: flex;
+    color: var(--seven-color);
+    align-items: center;
+    width: 48%;
+    height: 50px;
+    font-size: 13px;
+}
 /* End PRICING */
 
 
