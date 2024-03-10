@@ -1094,21 +1094,23 @@ body{
 /* Start contact us */
 
 
-.Contact-Us{
+
+
+.contact{
     background-color: var(--seven-color);
 }
 
-.container-Contact-Us{
+.container-contact{
     width: var(--container-width);
     margin: var(--container-margin);
 }
 
-.container-Contact-Us .title-Contact-Us{
+.container-contact .title-contact{
     text-align: center;
     position: relative;
 }
 
-.title-Contact-Us h4{
+.title-contact h4{
     margin-top: 0;
     padding-top: 50px;
     margin-bottom: 0;
@@ -1117,14 +1119,14 @@ body{
     letter-spacing: 1px;
 }
 
- .title-container-Contact-Us .separator{
+ .title-contact .separator{
     background-color: var(--main-color);
     height: 1px;
     width: 70px;
     margin-top: 30px;
 }
 
- .title-Contact-Us .separator::after{
+ .title-contact .separator::after{
     content: "";
     position: absolute;
     top: 100px;
@@ -1136,11 +1138,106 @@ body{
     background-color: var(--fifth-color);
 }
 
-.title-Contact-Us .info-Contact-Us{
+.title-contact .info-contact{
     font-size: 17px;
     width: 500px;
     margin: 0 auto;
 }
+
+.contact .container-contact .content-contact{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .container-contact .content-contact .form{
+    width: 60%;
+}
+
+.contact .container-contact .content-contact .form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content-contact .form form input:nth-child(1),
+.content-contact .form form input:nth-child(2){
+    margin-bottom: 20px;
+    padding: 10px 0 10px 15px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--fourth-color);
+    outline: none;
+    border: 1px solid var(--fourth-color);
+}
+
+.content-contact .form form textarea{
+    margin-bottom: 100px;
+    padding: 10px 0 10px 15px;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--fourth-color);
+    height: 200px;
+    outline: none;
+    resize: none;
+    border: 1px solid var(--fourth-color);
+}
+
+.content-contact .form form button{
+    color: var(--seven-color);
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 20px 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 13px;
+}
+
+
+.content-contact .information-contact{
+    width: 37%;
+    
+}
+
+.content-contact .information-contact .tel {
+    margin-bottom: 30px;
+}
+
+.content-contact .information-contact .tel p,
+.content-contact .information-contact .adress p{
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-top: 0;
+    margin-top: 0;
+    color: var(--main-color);
+}
+
+.content-contact .information-contact .tel h5,
+.content-contact .information-contact .adress h5{
+    margin: 0;
+    color: var(--sixth-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* End contact us */
 
