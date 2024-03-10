@@ -9,7 +9,6 @@
     --seven-color: #ffffff;
     --container-width: 1170px;
     --container-margin: 0 auto;
-
 }
 
 html{
@@ -57,7 +56,7 @@ body{
 
 .home .container .header .links{
     list-style-type: none;
-    
+
 }
 
 .home .container .header .links li {
@@ -65,7 +64,6 @@ body{
     font-size:17px;
     letter-spacing: -1px;
     margin-bottom: 20px;
-    
 }
 
 .home .container .header .links li a{
@@ -183,7 +181,6 @@ body{
 }
 
 /* End Home */
-
 /* Start services */
 .services{
     background-color: var(--seven-color);
@@ -1219,6 +1216,8 @@ body{
     margin-top: 40px;
 }
 
+                /* startfooter */
+
 .footer .cont-footer{
     width: var(--container-width);
     margin: var(--container-margin);
@@ -1262,19 +1261,7 @@ body{
 .footer .cont-footer .copyrith span{
     color: var(--secondary-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    /* end footer */
 /* End contact us */
 
 
