@@ -1092,10 +1092,6 @@ body{
 }
 /* End PRICING */
 /* Start contact us */
-
-
-
-
 .contact{
     background-color: var(--seven-color);
 }
@@ -1195,10 +1191,8 @@ body{
     font-size: 13px;
 }
 
-
 .content-contact .information-contact{
     width: 37%;
-    
 }
 
 .content-contact .information-contact .tel {
@@ -1220,12 +1214,54 @@ body{
     color: var(--sixth-color);
 }
 
+.contact .footer{
+    background-color: var(--main-color);
+    margin-top: 40px;
+}
 
+.footer .cont-footer{
+    width: var(--container-width);
+    margin: var(--container-margin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.footer .cont-footer .logo img{
+    width:150px;
+	height:60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 
+.footer .cont-footer h3{
+    color: var(--seven-color);
+    padding: 15px 30px;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    font-weight: 400;
+    border-bottom: 1px solid var(--seven-color);
+}
 
+.footer .cont-footer .icons{
+    margin-bottom: 60px;
+    padding: 15px 70px 15px 100px;
+}
+.footer .cont-footer .icons i{
+    color: var(--seven-color);
+    font-size: 13px;
+    margin-right: 35px;
+}
 
+.footer .cont-footer .copyrith{
+    color: var(--seven-color);
+    margin-bottom: 30px;
+}
 
+.footer .cont-footer .copyrith span{
+    color: var(--secondary-color);
+}
 
 
 
