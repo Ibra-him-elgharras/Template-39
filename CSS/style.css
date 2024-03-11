@@ -778,7 +778,6 @@ body{
 .about-test-skills {
     width: var(--container-width);
     margin: var(--container-margin);
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
 }
