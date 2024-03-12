@@ -30,7 +30,7 @@ body{
 /* Start Home */
 
 .home{
-    background-image: url(/images/noir-1.jpg);
+    background-image: url(../images/noir-1.jpg);
 }
 
 .home::before{
@@ -266,7 +266,7 @@ body{
 /* End services */
 /* Start phone advertise */
 .phone-adver{
-    background-image: url(/images/noir-1.jpg);
+    background-image: url(../images/noir-1.jpg);
 }
 .phone-adver .container{
     width:1170px;
@@ -714,7 +714,7 @@ body{
 }
 
 .about-us .about-Statistics{
-    background-image: url(/images/noir-1.jpg);
+    background-image: url(../images/noir-1.jpg);
     display: flex;
     align-items: center;
     height: 280px;
@@ -872,7 +872,7 @@ body{
 }
 
 .about-us .about-quaote{
-    background-image: url(/images/noir-1.jpg);
+    background-image: url(../images/noir-1.jpg);
     display: flex;
     align-items: center;
     height: 280px;
