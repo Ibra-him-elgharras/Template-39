@@ -30,7 +30,7 @@ body{
 /* Start Home */
 
 .home{
-    background-image: url(/images/noir-1.jpg);
+    background-image: url("../images/noir-1.jpg");
 }
 
 .home::before{
